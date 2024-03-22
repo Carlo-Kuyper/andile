@@ -1,10 +1,10 @@
-# Coffee Code: A Developer-Themed E-commerce Site
+# DevCav: A Developer-Themed E-commerce Site
 
-Welcome to Coffee Code, the e-commerce platform where coffee meets code! This project is designed for coffee lovers with a passion for development, offering a unique blend of high-quality coffee products with a nerdy, developer-themed twist. Whether you're looking for your next favorite coffee blend or some developer-themed coffee accessories, Coffee Code has something for every tech enthusiast.
+Welcome to DevCav, the e-commerce platform where coffee meets code! This project is designed for coffee lovers with a passion for development, offering a unique blend of high-quality coffee products with a nerdy, developer-themed twist. Whether you're looking for your next favorite coffee blend or some developer-themed coffee accessories,DevCav has something for every tech enthusiast.
 
 ## Technologies Used
 
-Coffee Code is built using the MERN stack, a popular set of technologies known for its efficiency and scalability in web development. Here's a breakdown of the stack:
+DevCav is built using the MERN stack, a popular set of technologies known for its efficiency and scalability in web development. Here's a breakdown of the stack:
 
 - **MongoDB**: A NoSQL database used for storing product and user data in a flexible, schema-less format.
 - **Express.js**: A web application framework for Node.js, used to build our server-side logic and API endpoints.
@@ -19,7 +19,7 @@ Coffee Code is built using the MERN stack, a popular set of technologies known f
 
 ## Getting Started
 
-To get Coffee Code up and running on your local machine, follow these steps:
+To get DevCav up and running on your local machine, follow these steps:
 
 ### Prerequisites
 
@@ -75,7 +75,7 @@ bash
 cd client
 npm start
 
-Your default web browser should automatically open to `http://localhost:3000`, where you'll be greeted by the Coffee Code homepage.
+Your default web browser should automatically open to `http://localhost:3000`, where you'll be greeted by the DevCav homepage.
 
 ## Have Fun Selling Coffee!
 
