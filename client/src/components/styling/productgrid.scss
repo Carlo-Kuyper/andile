@@ -1,0 +1,35 @@
+.pagination-container {
+    color: white;
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: end; 
+  }
+  
+  .pagination-dropdown {
+    background-color: transparent; 
+    border: none; 
+    color: white; 
+    padding: 10px;
+
+    &:focus {
+      box-shadow: none; // Remove focus outline
+    }
+  }
+  
+  .pagination-controls {
+    // Style for the pagination control buttons
+    a {
+      color: white; // White text color for the buttons
+      margin: 0 5px; // Spacing between buttons
+  
+      &:hover {
+        color: #ccc; // Lighter color on hover
+      }
+  
+      &[disabled] {
+        color: #555; // Disabled state color
+        pointer-events: none; // Disable pointer events on disabled buttons
+      }
+    }
+  }

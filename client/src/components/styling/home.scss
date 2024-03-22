@@ -1,0 +1,23 @@
+$cardBackground: #1A1A1A;
+$headings: #FF5E3A;
+
+.homeText{
+    h2{
+        color: $headings;
+    }
+    h3{
+        color: $headings;
+    }
+}
+.colection{
+    align-items: center;
+    text-align: center;
+    
+    .line{
+        margin-left: 40%;
+        width: 20%;
+        height: 3px;
+        background-color: $headings; 
+    }
+    color: $headings;
+}

@@ -1,0 +1,68 @@
+$cardBackground: #141414;
+$headings: #FF5E3A;
+
+.navCon{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: $cardBackground;
+    float: left;
+    width: 100vw;  
+    text-align: left;
+    align-items: left;
+
+    .logo{
+        padding-top: .5%;
+        padding-bottom: .5%;
+        width: 6%;
+        min-width: 100px;
+        float: left;
+    }
+    .links{
+        float: left;
+        margin: 1.25%;
+    }
+    .noDecor{
+        text-decoration: none;
+        color: white;
+    }
+    .cart{
+        float: right;
+        text-align: right;
+    }
+    .userName{
+        float: left;
+    }
+}
+
+
+.dropdown-toggle {
+    background-color: transparent !important;
+    color: white !important;
+    border: none !important;
+    
+    &:hover, &:focus {
+    background-color: $cardBackground !important;
+      color: white !important;
+    }
+}
+
+.dropdown-menu{
+    background-color: $cardBackground !important;
+    color: white !important;
+    
+    &:hover, &:focus {
+        background-color: $cardBackground !important;
+        color: white !important;
+    } 
+}
+
+.dropdown-item{
+    background-color: $cardBackground !important;
+    color: rgba(255, 255, 255, 0.367) !important;
+    &:hover, &:focus {
+        background-color: $cardBackground !important;
+        color: white !important;
+    } 
+}

@@ -1,0 +1,150 @@
+$BackgroundColour: #2A2A2A;
+$cardBackground: #1A1A1A;
+$headings: #FF5E3A;
+
+body{
+    background-color: $BackgroundColour;
+}
+
+.itemInfoCon{
+    background-color: $cardBackground;
+    border-radius: 15px;
+    // height: 40vh;
+    .card-coffee-con{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .smallText{
+        font-weight: lighter;
+        font-size: small;
+    }
+    img{
+        margin-left: 5%;
+        margin-top: 5%;
+        padding-bottom: 5%;
+        width: 25vw;
+        height: 50vh;
+        object-fit: cover; 
+        border-radius: 10px;
+    }
+    h3{
+        color: $headings;
+        margin-top: 10%;
+    }
+    h5{
+        color: $headings;
+    }
+}
+
+.selectCon{
+    background-color: $cardBackground;
+    border-radius: 15px;
+    padding-bottom: 5%;
+    h1{
+        text-align: right;
+        font-weight: bold;
+        padding-top:5%;
+        padding-right: 5%;
+        margin-right: 5%;
+    }
+    Button{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
+
+.productInfo{
+    background-color: $cardBackground;
+    margin-top: 2%;
+    border-radius: 15px;
+    padding-bottom: 2%;
+    .block1{
+        border-style: solid;
+        border-width: 1px;
+        margin-top: 1%;
+        margin-left: 4%;
+        height: 40px;
+        padding-top: .5%;
+    }
+    .block2{
+        border-style: solid;
+        border-width: 1px;
+        margin-right: 4%;
+        margin-top: 1%;
+        height: 40px;
+        padding-top: .5%;
+    }
+}
+
+
+
+
+
+.itemInfoCon2{
+    background-color: $cardBackground;
+    border-radius: 15px;
+    // height: 40vh;
+    .card-coffee-con{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .smallText{
+        font-weight: lighter;
+        font-size: small;
+    }
+    img{
+        margin-left: 5%;
+        margin-top: 5%;
+        padding-bottom: 5%;
+        width: 25vw;
+        height: 50vh;
+        object-fit: cover; 
+        border-radius: 10px;
+    }
+    input{
+        background-color: rgba(255, 0, 0, 0);
+        border: 1px solid rgb(138, 138, 138);
+        color: white;
+        margin: 0.5rem 0;
+        padding: 5px;
+        width: 100%;
+        accent-color: $headings;
+    }
+    textarea{
+        background-color: rgba(255, 0, 0, 0);
+        border: 1px solid rgb(138, 138, 138);
+        color: white;
+        margin: 0.5rem 0;
+        padding: 5px;
+        width: 100%;
+        accent-color: $headings;
+    }
+}
+
+
+.btnCon{
+    Button{
+        background-color: rgba(255, 0, 0, 0);
+        border: 1px solid $headings;
+        color: $headings;
+        margin-left: 2%;
+    }
+    Button:hover{
+        background-color: $headings;
+        border: 1px solid $headings;
+        border:0;
+    }
+    Button:disabled{
+        background-color: $headings;
+        border: 1px solid $headings;
+        border: 0;
+        color: white;
+    }
+    Button:focus{
+        background-color: $headings;
+        border: 1px solid $headings;
+        color: white;
+        border:0;
+    }
+}

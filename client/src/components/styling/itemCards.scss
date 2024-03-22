@@ -1,0 +1,103 @@
+$cardBackground: #2A2A2A;
+$cardBackgroundDark: #1A1A1A;
+$headings: #FF5E3A;
+
+.items-con{
+    background-color: $cardBackground;
+    border-radius: 10px;
+    display: flex; // Set the container to a flex container
+    flex-direction: column; // Stack children vertically
+    justify-content: space-between; // Distribute space between items
+    position: relative;
+    height: 100%; 
+
+    // width: 18vw;
+    
+    .card-coffee-con {
+        margin-bottom: 1rem;
+        text-align: center;
+        margin: 0;
+        margin-top: 7%;
+    }
+
+    img{
+        width: 100%; // Use 100% to make it responsive and fit the container width
+        height: 200px; // Set a fixed height for all images
+        object-fit: cover; // This will cover the area without stretching the image
+        border-radius: 10px;
+    }
+    p{
+     margin: 0;
+     padding: 0;   
+     padding-bottom: 5px;
+    }
+        
+}
+
+.productCard{
+    background-color: $cardBackground;
+    border-radius: 5px;
+    display: flex; // Set the container to a flex container
+    flex-direction: column; // Stack children vertically
+    justify-content: space-between; // Distribute space between items
+    position: relative;
+    height: 100%; 
+
+    // width: 18vw;
+    
+    .card-coffee-con {
+        margin-bottom: 1rem;
+        text-align: center;
+        margin: 0;
+        margin-top: 7%;
+    }
+
+    img{
+        width: 100%; // Use 100% to make it responsive and fit the container width
+        height: 200px; // Set a fixed height for all images
+        object-fit: cover; // This will cover the area without stretching the image
+        border-radius: 4px;
+    }
+    p{
+     margin: 0;
+     padding: 0;   
+     padding-bottom: 5px;
+    }   
+}
+
+.btnCon{
+    text-align: right;
+    margin-right: 2%;
+    padding-bottom: 2%;
+    Button{
+        background-color: rgba(255, 0, 0, 0);
+        border: 1px solid $headings;
+        color: $headings;
+        margin-left: 2%;
+    }
+    Button:hover{
+        background-color: $headings;
+        border: 1px solid $headings;
+        border:0;
+    }
+    Button:disabled{
+        background-color: $headings;
+        border: 1px solid $headings;
+        border: 0;
+        color: white;
+    }
+    Button:focus{
+        background-color: $headings;
+        border: 1px solid $headings;
+        color: white;
+        border:0;
+    }
+}
+
+.noItmes{
+    background-color: $cardBackgroundDark;
+    border-radius: 10px;
+    p{
+        padding: 5%;
+    }
+}

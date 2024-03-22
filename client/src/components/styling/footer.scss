@@ -1,0 +1,16 @@
+.global-footer {
+    background-color: #1A1A1A; // Or any color you prefer
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 4%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  
+    .container {
+      max-width: 1140px; // Or the max-width of your site's content
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+  }

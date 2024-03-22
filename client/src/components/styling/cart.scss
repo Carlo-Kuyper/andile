@@ -1,0 +1,209 @@
+$cardBackground: #1A1A1A;
+$headings: #FF5E3A;
+
+.cart-item{
+    background-color: $cardBackground;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 100%; 
+    margin-bottom: 2%;
+
+    padding: 2%;
+
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    opacity: 1;
+
+    img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover; 
+        border-radius: 10px;
+    }
+    p{
+     margin: 0;
+     padding: 0;   
+     padding-bottom: 5px;
+    }
+    h4{
+        color: $headings;
+    }
+    h5{
+        color: $headings;
+    }
+    Button{
+        background-color: rgba(255, 0, 0, 0);
+        border: 1px solid $headings;
+        color: $headings;
+        margin-left: 2%;
+    }
+    Button:hover{
+        background-color: $headings;
+        border:0;
+    }
+    Button:focus{
+        background-color: $headings;
+        color: white;
+        border:0;
+    }
+    
+}
+
+
+.summaryCon{
+    background-color: $cardBackground;
+    border-radius: 5px;
+    padding: 5%;
+    text-align: left;
+
+    h4{
+        color: $headings;
+        text-align: right;
+    }
+    h5{
+        float: left;
+    }
+    p{
+        font-weight: lighter;
+    }
+    Button{
+        background-color: rgba(255, 0, 0, 0);
+        border: 1px solid $headings;
+        color: $headings;
+     
+        width: 80%;
+        margin-left: 10%;
+    }
+    Button:disabled{
+        background-color: #ff5e3a86;
+        border: 0;
+        color: white;
+     
+        width: 80%;
+        margin-left: 10%;
+    }
+    Button:hover{
+        background-color: #FF5E3A;
+        border:0;
+    }
+}
+
+ .section-header {
+    // display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A1A1A;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px; 
+    border-radius: 10px;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.section-toggle {
+    color: #FF5E3A; 
+    cursor: pointer;
+    float: right;
+}
+
+.paymentCon{
+    input{
+        accent-color: $headings;
+    }
+}
+.addressForm{
+    background-color: $cardBackground;
+    border-radius: 10px;
+    padding: 5%;
+    
+    input{
+        background-color: rgba(255, 0, 0, 0);
+        border: 1px solid rgb(138, 138, 138);
+        color: white;
+        margin: 0.5rem 0;
+        padding: 5px;
+        width: 100%;
+        accent-color: $headings;
+    }
+    label{
+        width: 100%;
+        font-weight: lighter;
+        margin-top: 2%;
+    }
+    select{
+        border: 1px solid rgb(138, 138, 138);
+        background-color: $cardBackground;
+        padding: 1%;
+        color: white;
+    }
+    Button{
+        background-color: rgba(255, 0, 0, 0);
+        border: 1px solid $headings;
+        color: $headings;
+    }
+    Button:hover{
+        background-color: #FF5E3A;
+        border:0;
+    }
+
+}
+
+.addressFormCon{
+    h3{
+        color: $headings;
+        font-weight: bold;
+        // margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+.deliveredByCon{
+    padding: 1%;
+        
+    .delivery-option{
+        padding: 3%;
+        margin-top: 5%;
+        border: 1px solid rgb(138, 138, 138);
+        text-align: left;
+        border-radius: 10px;
+        
+        .deliveryType{
+            background-color: $headings;
+            padding: 1%;
+            width: 40%;
+            text-align: center;
+            border-radius: 5px;
+        }
+    }
+    input {
+        accent-color: $headings;
+    }
+}
+
+.order-review{
+    Button{
+        background-color: rgba(255, 0, 0, 0);
+        border: 1px solid $headings;
+        color: $headings;
+        margin-left: 2%;
+    }
+    Button:hover{
+        background-color: $headings;
+        border:0;
+    }
+    Button:focus{
+        background-color: $headings;
+        color: white;
+        border:0;
+    }
+}
+
+
+.textCon{
+    padding: 5%;
+}
